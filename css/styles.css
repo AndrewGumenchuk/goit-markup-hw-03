@@ -317,19 +317,21 @@ button:focus {
 
 /* Footer */
 
-.footer .container {
+.footer-main {
   display: flex;
   align-items: center;
 }
-
-.footer-nav {
+.footer-item {
   display: flex;
   flex-direction: column;
+  outline: 2px solid red;
 }
+
 .footer-social {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-left: 179px;
 }
 .social {
   display: flex;
@@ -350,15 +352,32 @@ button:focus {
   color: var(--accent-color);
 }
 
-.footer .adress {
+.footer-contact .adress {
+  display: block;
+  margin-bottom: 9px;
+  margin-top: 0px;
+
   color: var(--background-color);
   background-color: #cccccc;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.footer .link {
+.footer-contact .link {
+  display: block;
   margin-bottom: 9px;
+  margin-top: 0px;
+
+  color: var(--footer-navigation-color);
+  background-color: #cccccc;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contact .phone {
+  display: block;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
   color: var(--footer-navigation-color);
   background-color: #cccccc;
@@ -381,6 +400,9 @@ button:focus {
 .subscription {
   display: flex;
   flex-direction: column;
+}
+.subscription .title {
+  margin-top: 0px;
 }
 
 .footer .copyright {
@@ -439,4 +461,19 @@ button:focus {
   background-color: var(--accent-color);
   font-size: 18px;
   line-height: 1.56;
+}
+
+.footer-button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
