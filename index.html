@@ -17,25 +17,32 @@
   <body>
     <!--site header-->
     <header class="page-header">
-      <nav class="container">
-        <a href="./index.html" class="logo"
-          ><span class="accent">Web</span>Studio
-        </a>
-        <ul class="site-nav">
-          <li><a class="link current" href="">Студия</a></li>
-          <li><a class="link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <div class="container">
+      <div class="container main-nav">
+        <nav class="nav">
+          <a href="./index.html" class="logo">
+            <span class="accent">Web</span>Studio
+          </a>
+          <ul class="site-nav">
+            <li class="item">
+              <a class="link current" href="">Студия </a>
+            </li>
+            <li class="item">
+              <a class="link" href="./portfolio.html">Портфолио </a>
+            </li>
+            <li class="item">
+              <a class="link" href="">Контакты </a>
+            </li>
+          </ul>
+        </nav>
+
         <ul class="contact">
-          <li>
+          <li class="item">
             <a class="link" href="mailto:info@devstudio.com">
               <img src="./images/envelope(hover).svg" alt="почта" />
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="item">
             <a class="link" href="tel:+380961111111">
               <img src="./images/Vector.svg" alt="телефон" />
               +38 096 111 11 11
@@ -57,57 +64,55 @@
 
       <!--Features-->
       <section class="section">
-        <div class="container">
-          <!-- <h2 class="section-title">Приемущества</h2> -->
-          <ul>
-            <li>
-              <a href="">
-                <img src="./images/antenna_1.svg" alt="Спутниковая антена" />
-              </a>
-              <h3 class="section-subtitle">Внимание к деталям</h3>
-              <p class="section-text">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
-              </p>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/clock_1.svg" alt="Часы" />
-              </a>
-              <h3 class="section-subtitle">Пунктуальность</h3>
-              <p class="section-text">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
-              </p>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/diagram_1.svg" alt="Диаграмма" />
-              </a>
-              <h3 class="section-subtitle">Планирование</h3>
-              <p class="section-text">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
-              </p>
-            </li>
-            <li>
-              <a href="">
-                <img src="./images/astronaut_1.svg" alt="астронафт" />
-              </a>
-              <h3 class="section-subtitle">Современные технологии</h3>
-              <p class="section-text">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
-        </div>
+        <!-- <h2 class="section-title">Приемущества</h2> -->
+        <ul class="container features">
+          <li class="item">
+            <a href="">
+              <img src="./images/antenna_1.svg" alt="Спутниковая антена" />
+            </a>
+            <h3 class="section-subtitle">Внимание к деталям</h3>
+            <p class="section-text">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li class="item">
+            <a href="">
+              <img src="./images/clock_1.svg" alt="Часы" />
+            </a>
+            <h3 class="section-subtitle">Пунктуальность</h3>
+            <p class="section-text">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li class="item">
+            <a href="">
+              <img src="./images/diagram_1.svg" alt="Диаграмма" />
+            </a>
+            <h3 class="section-subtitle">Планирование</h3>
+            <p class="section-text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li class="item">
+            <a href="">
+              <img src="./images/astronaut_1.svg" alt="астронафт" />
+            </a>
+            <h3 class="section-subtitle">Современные технологии</h3>
+            <p class="section-text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
       </section>
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul>
-            <li>
+          <ul class="works">
+            <li class="item">
               <a href="">
                 <img
                   src="./images/Desktop_applications.jpg"
@@ -117,7 +122,7 @@
                 <p class="section-caption">Десктопные приложения</p>
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img
                   src="./images/Mobile_applications.jpg"
@@ -127,7 +132,7 @@
                 <p class="section-caption">Мобильные приложения</p>
               </a>
             </li>
-            <li>
+            <li class="item">
               <a href="">
                 <img
                   src="./images/Design_solutions.jpg"
@@ -145,13 +150,13 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="team">
+            <li class="item">
               <img src="./images/John_Smith.jpg" alt="John Smith на фото" />
               <h3 class="section-heading">John Smith</h3>
               <p class="section-headline">Product Designer</p>
-              <ul>
-                <li>
+              <ul class="social">
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/instagram_2.svg"
@@ -159,7 +164,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/twitter_1.svg"
@@ -167,7 +172,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/facebook_1.svg"
@@ -175,7 +180,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/linkedin_1.svg"
@@ -186,15 +191,15 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img
                 src="./images/Marta_Stewart.jpg"
                 alt="Marta Stewart на фото"
               />
               <h3 class="section-heading">Marta Stewart</h3>
               <p class="section-headline">Frontend Developer</p>
-              <ul>
-                <li>
+              <ul class="social">
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/instagram_2.svg"
@@ -202,7 +207,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/twitter_1.svg"
@@ -210,7 +215,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/facebook_1.svg"
@@ -218,7 +223,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/linkedin_1.svg"
@@ -229,12 +234,12 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./images/Robert_Jakis.jpg" alt="Robert Jakis на фото" />
               <h3 class="section-heading">Robert Jakis</h3>
               <p class="section-headline">Marketing</p>
-              <ul>
-                <li>
+              <ul class="social">
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/instagram_2.svg"
@@ -242,7 +247,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/twitter_1.svg"
@@ -250,7 +255,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/facebook_1.svg"
@@ -258,7 +263,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/linkedin_1.svg"
@@ -269,12 +274,12 @@
               </ul>
             </li>
 
-            <li>
+            <li class="item">
               <img src="./images/Martin_Doe.jpg" alt="Martin Doe на фото" />
               <h3 class="section-heading">Martin Doe</h3>
               <p class="section-headline">UI Designer</p>
-              <ul>
-                <li>
+              <ul class="social">
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/instagram_2.svg"
@@ -282,7 +287,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/twitter_1.svg"
@@ -290,7 +295,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/facebook_1.svg"
@@ -298,7 +303,7 @@
                     />
                   </a>
                 </li>
-                <li>
+                <li class="link">
                   <a href="">
                     <img
                       src="./images/linkedin_1.svg"
@@ -316,35 +321,35 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
-          <ul>
-            <li>
+          <ul class="clients">
+            <li class="company">
               <a href="">
-                <img src="./images/logo_1.svg" alt="YA & CO" />
+                <img src="./images/Client_1.svg" alt="YA & CO" />
               </a>
             </li>
-            <li>
+            <li class="company">
               <a href="">
-                <img src="./images/logo_2.svg" alt="Company Tagline here" />
+                <img src="./images/Client_2.svg" alt="Company Tagline here" />
               </a>
             </li>
-            <li>
+            <li class="company">
               <a href="">
-                <img src="./images/logo_3.svg" alt="Company" />
+                <img src="./images/Client_3.svg" alt="Company" />
               </a>
             </li>
-            <li>
+            <li class="company">
               <a href="">
-                <img src="./images/logo_4.svg" alt="FOSTER PETERS" />
+                <img src="./images/Client_4.svg" alt="FOSTER PETERS" />
               </a>
             </li>
-            <li>
+            <li class="company">
               <a href="">
-                <img src="./images/logo_5.svg" alt="Brand" />
+                <img src="./images/Client_5.svg" alt="Brand" />
               </a>
             </li>
-            <li>
+            <li class="company">
               <a href="">
-                <img src="./images/logo_6.svg" alt="Company Tagline" />
+                <img src="./images/Client_6.svg" alt="Company Tagline" />
               </a>
             </li>
           </ul>
@@ -353,15 +358,15 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="container">
-        <ul>
-          <li>
-            <a class="logo" href="./index.html">
-              <span class="accent">Web</span>Studio
-            </a>
-          </li>
-          <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
-          <ul>
+      <div class="footer container">
+        <div class="footer-item">
+          <ul class="footer-nav">
+            <li>
+              <a class="logo" href="./index.html">
+                <span class="accent">Web</span>Studio
+              </a>
+            </li>
+            <li class="adress">г. Киев, пр-т Леси Украинки, 26</li>
             <li>
               <a class="link" href="mailto:info@devstudio.com">
                 info@example.com
@@ -371,38 +376,39 @@
               <a class="link" href="tel:+380961111111"> +38 096 111 11 11 </a>
             </li>
           </ul>
-        </ul>
+        </div>
+        <div class="footer-item">
+          <ul class="footer-social">
+            <li class="social">
+              <p class="title">присоединяйтесь</p>
+            </li>
+            <li class="social">
+              <div class="social-icon">
+                <a href="">
+                  <img src="./images/instagram_2.svg" alt="Инстаграм" />
+                </a>
+                <a href="">
+                  <img src="./images/twitter_1.svg" alt="Твиттер" />
+                </a>
+                <a href="">
+                  <img src="./images/facebook_1.svg" alt="Фейсбук" />
+                </a>
+                <a href="">
+                  <img src="./images/linkedin_1.svg" alt="Линкедин" />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-item">
+          <div class="subscription">
+            <p class="title">подпишитесь на рассылку</p>
+            <a href="" class="button">Подписаться</a>
+          </div>
+        </div>
       </div>
 
-      <div class="container">
-        <p class="title">присоединяйтесь</p>
-        <ul>
-          <li>
-            <a href="">
-              <img src="./images/instagram_2.svg" alt="Инстаграм" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/twitter_1.svg" alt="Твиттер" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/facebook_1.svg" alt="Фейсбук" />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/linkedin_1.svg" alt="Линкедин" />
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="container">
-        <p class="title">подпишитесь на рассылку</p>
-      </div>
-      <div class="copyright">2020 | Developed by GoIT Students</div>
+      <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
