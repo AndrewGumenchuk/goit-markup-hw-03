@@ -39,7 +39,7 @@ html {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 /* Body */
@@ -325,7 +325,7 @@ button:focus {
 .footer-item {
   display: flex;
   flex-direction: column;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .footer-social {
@@ -429,6 +429,11 @@ button:focus {
 /* Portfolio.html */
 .filter-button {
   display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-button > .item + .item {
+  margin-left: 8px;
 }
 
 .filter {
