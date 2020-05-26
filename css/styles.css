@@ -210,6 +210,9 @@ button:focus {
 .features .item:last-child {
   margin-right: 0px;
 }
+.section.border {
+  border-bottom: 1px solid #ececec;
+}
 
 .section {
   padding-top: 94px;
@@ -320,9 +323,13 @@ button:focus {
 
 /* Footer */
 
+.footer {
+  background-color: #2f303a;
+}
+
 .footer-main {
   display: flex;
-  align-items: center;
+  background-color: #2f303a;
 }
 .footer-item {
   display: flex;
@@ -347,9 +354,9 @@ button:focus {
 .footer .logo {
   display: inline-block;
   margin-bottom: 10px;
+  padding-top: 48px;
 
   color: var(--background-color);
-  background-color: #cccccc;
 }
 .footer .logo:focus {
   color: var(--accent-color);
@@ -361,7 +368,6 @@ button:focus {
   margin-top: 0px;
 
   color: var(--background-color);
-  background-color: #cccccc;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -372,18 +378,16 @@ button:focus {
   margin-top: 0px;
 
   color: var(--footer-navigation-color);
-  background-color: #cccccc;
   font-size: 14px;
   line-height: 1.71;
 }
 
 .footer-contact .phone {
   display: block;
-  margin-bottom: 0px;
+  margin-bottom: 28px;
   margin-top: 0px;
 
   color: var(--footer-navigation-color);
-  background-color: #cccccc;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -392,9 +396,9 @@ button:focus {
   display: inline-block;
   margin-bottom: 21px;
   margin-top: 0px;
+  padding-top: 56px;
 
   color: var(--background-color);
-  background-color: #cccccc;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -415,17 +419,35 @@ button:focus {
   margin-right: 263px;
 }
 
+.footer-button {
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+
+  color: var(--background-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 .footer .copyright {
   color: var(--copyright-color);
-  background-color: #cccccc;
   font-size: 12px;
   line-height: 2;
   text-align: center;
 }
 
 .container .copyright {
+  display: flex;
+  justify-content: center;
+  padding: 18px 0px 18px 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Portfolio.html */
@@ -481,19 +503,4 @@ button:focus {
   background-color: var(--accent-color);
   font-size: 18px;
   line-height: 1.56;
-}
-
-.footer-button {
-  display: inline-block;
-  padding: 10px 32px;
-  border-radius: 4px;
-  margin-bottom: 0px;
-
-  color: var(--background-color);
-  background-color: var(--accent-color);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.06em;
 }
