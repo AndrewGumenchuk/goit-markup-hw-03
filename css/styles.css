@@ -279,6 +279,10 @@ button:focus {
 }
 
 /* Team */
+.section.our-team {
+  background-color: var(--secondary-background-color);
+}
+
 .team {
   display: flex;
 }
@@ -439,6 +443,11 @@ button:focus {
   border-bottom: 1px solid #ececec;
 }
 
+.portfolio.main {
+  padding-top: 93px;
+  padding-bottom: 94px;
+}
+
 .filter-button {
   display: flex;
   justify-content: center;
@@ -467,8 +476,12 @@ button:focus {
 }
 
 .card {
+  margin-right: 8px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+}
+.card:last-child {
+  margin-right: 0px;
 }
 
 .card-link {
@@ -479,7 +492,7 @@ button:focus {
   border: 1px solid #eeeeee;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  padding: 20px 20px;
+  padding: 24px 20px;
 }
 
 .filter .title {
@@ -490,7 +503,7 @@ button:focus {
   letter-spacing: 0.06em;
 
   margin-top: 0px;
-  margin-bottom: 9px;
+  margin-bottom: 4px;
 }
 
 .filter .text {
@@ -499,7 +512,7 @@ button:focus {
   line-height: 1.88;
 
   margin-top: 0px;
-  margin-bottom: 7px;
+  margin-bottom: 0px;
 }
 
 .filter .description {
